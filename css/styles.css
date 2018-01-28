@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.questions{
+  text-align: center;
+  align-items: center;
+}
+
 #response {
   color: white;
 }
