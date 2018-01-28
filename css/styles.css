@@ -67,7 +67,111 @@ p, img{
     background-color: white;
     color: black;
 }
-div#button {
+#button {
     opacity: 0.7;
     filter: alpha(opacity=10);
+}
+
+#gcrest {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+#screst {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: red;}
+}
+
+#hcrest {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: yellow;}
+    25%  {background-color: red;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: yellow;}
+    25%  {background-color: red;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+#rcrest {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: red;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: red;}
+    100% {background-color: green;}
 }
