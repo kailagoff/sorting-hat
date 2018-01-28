@@ -1,5 +1,10 @@
 #hatResult {
   display: none;
+  text-align: center;
+}
+
+#response {
+  color: white;
 }
 
 .houseQuiz {
