@@ -61,6 +61,9 @@ $(document).ready(function() {
     sort = $("select#hatQuestion").val();
 
     $(".sortingHat").hide();
+    $("#qualities").hide();
+    $("#houseImages").hide();
+    $("#banner").show();
     $(".houseQuiz").show();
 
   });
@@ -81,18 +84,22 @@ $(document).ready(function() {
     if (result === 0 ) {
       var flipResult = houseFlip(sort, "gryffindor")
       $("#hatResult").show();
+      $("#gryffBanner").show();
       $("#response").text(flipResult);
     } else if (result === 1) {
       var flipResult = houseFlip(sort, "slytherin")
       $("#hatResult").show();
+      $("#slyBanner").show();
       $("#response").text(flipResult);
     } else if (result === 2) {
       var flipResult = houseFlip(sort, "hufflepuff")
       $("#hatResult").show();
+      $("#huffBanner").show();
       $("#response").text(flipResult);
     } else if (result === 3) {
       var flipResult = houseFlip(sort, "ravenclaw")
       $("#hatResult").show();
+      $("#ravenBanner").show();
       $("#response").text(flipResult);
     }
 
