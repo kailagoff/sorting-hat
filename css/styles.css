@@ -5,3 +5,30 @@
 .houseQuiz {
   display: none;
 }
+
+h4 {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2014/12/sortinghat-1600x720.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 50px;
+  margin-top: 30px;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+
+body {
+  background-image: url(https://i.imgur.com/EzRbxht.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#hat {
+  text-align: center;
+}
