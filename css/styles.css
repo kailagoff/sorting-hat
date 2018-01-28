@@ -72,17 +72,36 @@ p, img{
     filter: alpha(opacity=10);
 }
 
+#houseImages {
+  text-align: center;
+}
+
+#qualities {
+  column-count: 4;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #gcrest {
     width: 100px;
     height: 100px;
     background-color: red;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
     animation-name: example;
     animation-duration: 4s;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
@@ -90,7 +109,6 @@ p, img{
     100% {background-color: green;}
 }
 
-/* Standard syntax */
 @keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
@@ -102,13 +120,12 @@ p, img{
     width: 100px;
     height: 100px;
     background-color: green;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
     animation-name: example;
     animation-duration: 4s;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color: green;}
     25%  {background-color: yellow;}
@@ -116,7 +133,6 @@ p, img{
     100% {background-color: red;}
 }
 
-/* Standard syntax */
 @keyframes example {
     0%   {background-color: green;}
     25%  {background-color: yellow;}
@@ -128,13 +144,12 @@ p, img{
     width: 100px;
     height: 100px;
     background-color: yellow;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
     animation-name: example;
     animation-duration: 4s;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color: yellow;}
     25%  {background-color: red;}
@@ -142,7 +157,6 @@ p, img{
     100% {background-color: green;}
 }
 
-/* Standard syntax */
 @keyframes example {
     0%   {background-color: yellow;}
     25%  {background-color: red;}
@@ -154,13 +168,12 @@ p, img{
     width: 100px;
     height: 100px;
     background-color: blue;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
     animation-name: example;
     animation-duration: 4s;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color: blue;}
     25%  {background-color: yellow;}
@@ -168,7 +181,6 @@ p, img{
     100% {background-color: green;}
 }
 
-/* Standard syntax */
 @keyframes example {
     0%   {background-color: blue;}
     25%  {background-color: yellow;}
