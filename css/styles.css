@@ -16,7 +16,7 @@ h4 {
 }
 
 .jumbotron {
-  background-image: url(http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2014/12/sortinghat-1600x720.jpg);
+  background-image: url(https://library.creativecow.net/articles/kaufman_debra/Harry-Potter-Cinesite/assets/043_fn_001a_v08.0131_pr-lg.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -25,6 +25,8 @@ h4 {
   margin-top: 30px;
   color: white;
   text-shadow: 1px 2px black;
+  opacity: 0.8;
+  filter: alpha(opacity=10);
 }
 
 body {
@@ -34,6 +36,38 @@ body {
   background-repeat: no-repeat;
 }
 
-#hat {
+p, img{
   text-align: center;
+}
+
+#button {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+#button img {
+  right: 50%;
+}
+
+#button .btn {
+    position: relative;
+    left: 70%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 16px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#button .btn:hover {
+    background-color: white;
+    color: black;
+}
+div#button {
+    opacity: 0.7;
+    filter: alpha(opacity=10);
 }
