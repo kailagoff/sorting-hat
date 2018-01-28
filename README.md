@@ -1,7 +1,7 @@
 ## Author
-  * Kaila Goff, Adrian Agnic 1.27.18
+  * Kaila Goff 1.27.18
 
-# Sorting Hate
+# Sorting Hat
 
 A webpage that lets the user find out which Harry Potter House they belong to. User inputs their choice for a house, and then answer a five question quiz. The combination of those two results will sort the user into the house that most closely matches their input.
 
