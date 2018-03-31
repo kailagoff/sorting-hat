@@ -5,10 +5,11 @@
 
 A webpage that lets the user find out which Harry Potter House they belong to. User inputs their choice for a house, and then answer a five question quiz. The combination of those two results will sort the user into the house that most closely matches their input.
 
-## Specifications
-  *
-  *
-  *
+<kbd><img src="img/screenshot.png" alt=""></kbd>
+
+<kbd><img src="img/screenshot1.png" alt=""></kbd>
+
+<kbd><img src="img/screenshot2.png" alt=""></kbd>
 
 ## Built With
   * HTML
